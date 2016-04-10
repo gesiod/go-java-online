@@ -6,9 +6,4 @@ public class ImageFile extends File {
         this.name = name;
         this.size = size;
     }
-
-    @Override
-    public void open() {
-        System.out.println("Image file '" + name + "' is opened.");
-    }
 }

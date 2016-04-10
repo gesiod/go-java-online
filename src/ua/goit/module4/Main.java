@@ -6,8 +6,8 @@ public class Main {
 
         Area area = new Area();
         System.out.println(area.triangleArea(5, 5, 5));
-        System.out.println(area.rectangle(5, 10));
-        System.out.println(area.circle(5));
+        System.out.println(area.rectangleArea(5, 10));
+        System.out.println(area.circleArea(5));
 
         TemperatureConverter tempConverter = new TemperatureConverter();
         System.out.println(tempConverter.celsiusToFahrenheit(100));

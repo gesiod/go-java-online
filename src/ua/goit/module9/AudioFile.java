@@ -6,9 +6,4 @@ public class AudioFile extends File {
         this.name = name;
         this.size = size;
     }
-
-    @Override
-    public void open() {
-        System.out.println("Audio file '" + name + "' is opened.");
-    }
 }

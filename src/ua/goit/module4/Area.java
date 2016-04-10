@@ -7,11 +7,11 @@ public class Area {
         return Math.sqrt(semiperimeter * (semiperimeter - sideA) * (semiperimeter - sideB) * (semiperimeter - sideC));
     }
 
-    public double rectangle(int sideA, int sideB) {
+    public double rectangleArea(int sideA, int sideB) {
         return sideA * sideB;
     }
 
-    public double circle(int radius) {
+    public double circleArea(int radius) {
         return Math.PI * Math.pow(radius, 2);
     }
 }

@@ -32,6 +32,4 @@ public abstract class File implements Comparable<File> {
 
         return 0;
     }
-
-    public abstract void open();
 }

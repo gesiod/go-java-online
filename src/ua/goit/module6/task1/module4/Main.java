@@ -19,7 +19,7 @@ public class Main {
             double rectangleArea = area.rectangleArea(5, 5);
             System.out.println("Rectangle area: " + rectangleArea);
             // Circle area
-            System.out.println("Enter circle radius: ");
+            System.out.println("Enter circleArea radius: ");
             String userInput = scanner.nextLine();
             Integer radius = Integer.parseInt(userInput);
             double circleArea = area.circleArea(radius);
