@@ -19,7 +19,10 @@ public class Main {
         String originalText = stringBuilder.toString().trim();
 
         // Encode & decode
-        String encodedText = CipherAlgorithm.encode(originalText, 12);
+//        String encodedText = CipherAlgorithm.encode(originalText, 12);
+//        String decodedText = CipherAlgorithm.decode(encodedText, 12);
+
+        String encodedText = CipherAlgorithm.encode("Good", 12);
         String decodedText = CipherAlgorithm.decode(encodedText, 12);
 
         // Print out the results

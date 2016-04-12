@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
 public class TemperatureConverterTest {
 
     private static TemperatureConverter temperatureConverter = null;
-    private static final double DELTA = 2;
+    private static final double DELTA = 1;
 
     @BeforeClass
     public static void setUp() {
@@ -18,17 +18,17 @@ public class TemperatureConverterTest {
 
     @Test(timeout = 2000)
     public void celsiusToFahrenheit() {
-        double a = 100;
+        double celsius = 100;
         double expected = 212.0;
-        double result = temperatureConverter.celsiusToFahrenheit(a);
+        double result = temperatureConverter.celsiusToFahrenheit(celsius);
         assertEquals(expected, result, DELTA);
     }
 
     @Test(timeout = 2000)
     public void fahrenheitToCelsius() {
-        double a = 100;
+        double fahrenheit = 100;
         double expected = 37.77;
-        double result = temperatureConverter.fahrenheitToCelsius(a);
+        double result = temperatureConverter.fahrenheitToCelsius(fahrenheit);
         assertEquals(expected, result, DELTA);
     }
 }
