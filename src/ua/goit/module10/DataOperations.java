@@ -15,7 +15,7 @@ public class DataOperations {
         DataInputStream in = null;
         String textFromFile = null;
         try {
-            in = new DataInputStream(new BufferedInputStream(new FileInputStream("outFile")));
+            in = new DataInputStream(new BufferedInputStream(new FileInputStream(outFile)));
             textFromFile = in.readUTF();
             System.out.println("Text \"" + textFromFile + "\" readed from file.");
             return textFromFile;
